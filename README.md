@@ -6,7 +6,7 @@ open asks the user which operation to do. - Does that operation.
 displays the result.
 It's completely text-based and runs in the terminal or command line.
 # step by step explanation 
-# 1. Function satup
+# 1. Function setup
 The program defines four small chunks of code, known as functions, to perform each math operation:
 one function for addition
 one for subtraction
