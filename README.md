@@ -6,7 +6,7 @@ open asks the user which operation to do. - Does that operation.
 displays the result.
 It's completely text-based and runs in the terminal or command line.
 # step by step explanation 
-1. Function satup
+# 1. Function satup
 The program defines four small chunks of code, known as functions, to perform each math operation:
 one function for addition
 one for subtraction
@@ -15,21 +15,21 @@ one for division
 Each function:
 .Inputs two numbers.
 . calculates the result - sends the result out.
-2 . Getting user input
+# 2 . Getting user input
 The program then:
 . Prompts the user to enter the first number - Requests the second number.
 . The inputs are cast into float so the calculator can manage both the whole 
     and decimals numbers.
-3 . Showing the user options 
+# 3 . Showing the user options 
 after it obtains the numbers, the program prints a little menu:
  . Addition
  . Subtraction
  . Division
  . Multiplication
 Informs the user which number to put for each action.
-4. Taking the user's choice
+# 4. Taking the user's choice
 The user then is prompted to enter a number(1,2,3, or 4) to choose the operation they wish to apply.
-5 performing the operation
+# 5 performing the operation
 The program checks to see what the user selected:
  . run the code matching function.
  . here it takes the two numbers as input.
@@ -37,7 +37,7 @@ The program checks to see what the user selected:
 for example:
   . If the user selected 1, the calculator adds the numbers.
   . they dividing by 3 if they selected3.
-6. Handling division errors
+# 6. Handling division errors
 In the divisional section there is a minor protection:
   . It does not attempt to divide if the second number is zero.
   . Instead it prints something like: Error! Division by zero.
