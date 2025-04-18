@@ -48,3 +48,32 @@ return a*b # this is wrong
 It should be:
 return a/b# Correct: this divides a by b
 so if you're actually running the program, you want to fix that.
+ 
+# How to Run the Program 
+If you’d like to test the calculator: 
+1. Save the code in a file calculator. py. 
+2. Ensure that you have installed Python. 
+3. But command line or terminal window must be open first. 
+4. Run the program by typing: 
+python calculator.py 
+5. Instructions will appear in the terminal. 
+# Example Run 
+Here is how the calculator might work: 
+Enter the first number: 10   
+Enter the second number: 2   
+1. Addition   
+2. Subtraction   
+3. Division   
+4. Multiplication   
+ Enter your choice (1/2/3/4): 3 
+Result: 5.0 
+#  Things to Know 
+1. The program is text-based. No buttons or graphics. 
+2. It uses float() for decimal numbers (like 3.5 or 12.75)
+3. 3. It produces an error message if you try to divide by zero. 
+4. Then, you can run it again to try various operations. 
+#  Ideas to Improve 
+1. If you want to grow this program, you could: 
+2. Add more operations. 
+3. Allow users to continuously perform calculations in a loop. And add in some packages.
+4. Dump calculation history to a file. 
