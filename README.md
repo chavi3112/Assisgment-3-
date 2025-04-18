@@ -1,3 +1,49 @@
 # Assisgment-3-
-
-The calculator application example above is designed as a hands-on exercise to provide insights about how software design patterns and principles can be mapped against theoretical concepts learned in the abstract with real-world programming practices. By defining a separate function for each operation (addition, subtraction, multiplication, and division) the script adopts a modular design strategy, which complies with the Single Responsibility Principle (SRP) whereby each function has a well-defined task. More readable and maintainable code is achieved through this modular design, which also serves as a foundation for scaling the program with complex operations in the future. And it some it reasonably encapsulated and abstract too, as the specific logic for each type of operation is hidden within its function definition, and the user can use a type of operation just by providing the following information without knowing anything about the internal structure of the program. Implementation of very basic Error handling is also done in the script, especially division function where we are checking for a valid division or 0 division, this is one of the main parts of writing stable and user-friendly applications. Nonetheless, an arithmetic error in the division() function, where multiplication is erroneously implemented—emphasizes the importance of testing, debugging, and accurate implementation, showcasing the real-world necessity for quality assurance in software development. From a design pattern perspective, while the script follows a procedural design, the opportunity exists to delve into more complex structures, for instance, by configuring a Strategy Pattern approach in which each arithmetic operation is defined in a class that implements a common interface. Another very useful design pattern that could have been incorporated is the Command Pattern, which would allow a much cleaner and decoupled way to manage the user commands and the operations associated with them that would come in handy if the application were to be expanded with a GUI or additional functionality. From a design perspective, since the script has functions and conditional statements, it alludes to the separation of concerns or separating the logic of computation from user interaction. Such separation is a pillar of well-architected software systems and makes the program more maintainable and easy to debug. Theory and practice converge through code, where theoretical design principles inspire concrete programming techniques. The mixture of book learning and on-the-job experience cements understanding and equips developers to translate that knowhow into practice. In conclusion, even though the calculator script is very simple, it illustrates the case of applying, analyzing, or iterating on principles and patterns of software design for producing functional and maintainable apps.
+# This is a simple-level Python which basically functions of a calculator. It enables users to do four most common math operations:  addition, subtraction, multiplication and division.
+# what the program does
+This calculator: accepts two numbers as user input.
+open asks the user which operation to do. - Does that operation.
+displays the result.
+It's completely text-based and runs in the terminal or command line.
+# step by step explanation 
+1. Function satup
+The program defines four small chunks of code, known as functions, to perform each math operation:
+one function for addition
+one for subtraction
+one for multiplication
+one for division
+# Each function:
+ 1.Inputs two numbers.
+ 2. calculates the result - sends the result out.
+2. Getting user input
+The program then:
+ 1. Prompts the user to enter the first number - Requests the second number.
+ 2. The inputs are cast into float so the calculator can manage both the whole and decimals numbers.
+3. Showing the user options 
+after it obtains the numbers, the program prints a little menu:
+ 1. Addition
+ 2. Subtraction
+ 3. Division
+ 4. Multiplication
+Informs the user which number to put for each action.
+4. Taking the user's choice
+The user then is prompted to enter a number(1,2,3, or 4) to choose the operation they wish to apply.
+5 performing the operation
+The program checks to see what the user selected:
+  1. run the code matching function.
+  2. here it takes the two numbers as input.
+  3. displays the output of the calculation.
+for example:
+  1. If the user selected 1, the calculator adds the numbers.
+  2. they dividing by 3 if they selected3.
+6. Handling division errors
+In the divisional section there is a minor protection:
+   1. It does not attempt to divide if the second number is zero.
+   2. Instead it prints something like: Error! Division by zero.
+But there is a bug in the code in the cureent version. Unfortunately, the divison function multiplies.
+# Fix needed
+This is what the code does in the division function:
+return a*b # this is wrong
+It should be:
+return a/b# Correct: this divides a by b
+so if you're actually running the program, you want to fix that.
