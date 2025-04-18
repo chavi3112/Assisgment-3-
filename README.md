@@ -12,34 +12,35 @@ one function for addition
 one for subtraction
 one for multiplication
 one for division
-# Each function:
- 1.Inputs two numbers.
- 2. calculates the result - sends the result out.
-2. Getting user input
+Each function:
+.Inputs two numbers.
+. calculates the result - sends the result out.
+2 . Getting user input
 The program then:
- 1. Prompts the user to enter the first number - Requests the second number.
- 2. The inputs are cast into float so the calculator can manage both the whole and decimals numbers.
-3. Showing the user options 
+. Prompts the user to enter the first number - Requests the second number.
+. The inputs are cast into float so the calculator can manage both the whole 
+    and decimals numbers.
+3 . Showing the user options 
 after it obtains the numbers, the program prints a little menu:
- 1. Addition
- 2. Subtraction
- 3. Division
- 4. Multiplication
+ . Addition
+ . Subtraction
+ . Division
+ . Multiplication
 Informs the user which number to put for each action.
 4. Taking the user's choice
 The user then is prompted to enter a number(1,2,3, or 4) to choose the operation they wish to apply.
 5 performing the operation
 The program checks to see what the user selected:
-  1. run the code matching function.
-  2. here it takes the two numbers as input.
-  3. displays the output of the calculation.
+ . run the code matching function.
+ . here it takes the two numbers as input.
+ . displays the output of the calculation.
 for example:
-  1. If the user selected 1, the calculator adds the numbers.
-  2. they dividing by 3 if they selected3.
+  . If the user selected 1, the calculator adds the numbers.
+  . they dividing by 3 if they selected3.
 6. Handling division errors
 In the divisional section there is a minor protection:
-   1. It does not attempt to divide if the second number is zero.
-   2. Instead it prints something like: Error! Division by zero.
+  . It does not attempt to divide if the second number is zero.
+  . Instead it prints something like: Error! Division by zero.
 But there is a bug in the code in the cureent version. Unfortunately, the divison function multiplies.
 # Fix needed
 This is what the code does in the division function:
